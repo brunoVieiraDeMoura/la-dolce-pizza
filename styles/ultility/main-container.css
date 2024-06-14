@@ -8,5 +8,20 @@
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: var(--cor-6);
+  background: url(../../img/PIZZA1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+  .container-vh {
+    background-position: 60% 90%;
+  }
+}
+
+/* MOBILE PEQUENOS(ANTIGOS)*/
+@media screen and (min-width: 200px) and (max-width: 411px) {
+  .container-vh {
+    background-position: 50% 85%;
+  }
 }
